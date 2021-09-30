@@ -1,0 +1,146 @@
+/* #navbar {
+  width: 100vw;
+  height: 40px;
+  border: 3px solid white;
+  border-radius: 15px;
+} */
+/* body {
+  padding-top: 85px;
+
+ 
+} */
+
+#navbar img {
+  display: block;
+  height: 40px;
+  margin: auto;
+
+}
+#nav-logo{
+  display: none;
+}
+.navbar-nav a{
+  text-decoration: none;
+  color: black;
+}
+#story{
+  font-size: 2rem;
+}
+.read{
+  background-color: white;
+  border-color: black;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 13px 30px;
+  line-height: 1.6em;
+  min-width: 170px;
+  border-radius: 25px;
+  /* border: none; */
+}
+.read a{
+  color: black;
+}
+.read a:hover{
+  color: black;
+  text-decoration: none;
+}
+#process{
+  width: 1470px;
+  height: 485px;
+  /* background-color: rgba(0,0,0,0.3); */
+}
+.overlay-dark {
+  background-color: rgba(0,0,0,0.3);
+}
+.culture{
+  text-align: center;
+}
+.projects{
+  font-size: 2rem;
+}
+#gallery{
+  width:100%
+}
+.review{
+  font-size: 2rem;
+}
+#in-review{
+  padding: 20px;
+  /* padding-top: 20px;
+  padding-left: 30px; */
+  border: 2px solid #e7e7e7;
+  border-radius: 25px;
+}
+.centered {
+  position: absolute;
+  top: 168%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.consulting  {
+  position: relative;
+  top: 5%;
+  font-size: 10rem;
+  margin-left: 106px;
+  color: rgba(84,84,84,0.6);
+}
+.consulting-process{
+  font-size: 2.4rem;
+  position: relative;
+  top: -25%;
+  margin-left: 106px;
+}
+.load{
+  display: none;
+  margin-top: -14px;
+}
+.phNumber a{
+  color: black;
+}
+.phNumber a:hover{
+    text-decoration: none;
+}
+.social-icons{
+  display: inline-flex;
+  list-style: none;
+  margin-left: -33px;
+  font-size: 1.5rem;
+}
+.fa-instagram{
+  color: rgb(219, 55, 55)
+}
+.fa-facebook-official{
+  color: blue;
+}
+.fa-whatsapp{
+  color: rgb(130, 233, 83);;
+}
+.fa-youtube-play{
+  color: red;
+}
+.err{
+  color: red;
+}
+sup{
+  font-size: 1.1rem;
+  color: red;
+}
+/* .social-icons li{
+  text-decoration: none
+} */
+/* .img{
+  background-color: #fafafa;
+    background-image: url(https://cdn-61373911c1ac189674c0a5e7.closte.com/wp-content/uploads/sites/96/2017/11/sladjana-karvounis-424394.jpg);
+    background-position: center center;
+    background-size: cover;
+} */
+@media screen and (max-width: 992px) {
+  #nav-logo{
+    display: block;
+  }
+  #logo{
+    display: none;
+  }
+
+}
